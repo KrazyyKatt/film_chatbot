@@ -1,0 +1,14 @@
+langchain
+langchain-community
+langchain-core
+langchain-ollama
+langchain-text-splitters
+faiss-cpu
+sentence-transformers
+streamlit
+rouge-score
+nltk
+matplotlib
+scikit-learn
+pypdf
+numpy
