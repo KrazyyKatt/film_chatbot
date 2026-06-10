@@ -6,10 +6,51 @@ Access date: 2026-06-09
 License / attribution: This content is from Wikipedia. Wikipedia text is available under the Creative Commons Attribution-ShareAlike License (CC BY-SA). Attribution should be given through the article history available on Wikipedia. This TXT file contains text extracted from the official English Wikipedia PDF export for use in a student RAG corpus.
 
 ================================================================================
+Directed by        Francis Ford Coppola
+
+Screenplay by      
+Mario Puzo
+Francis Ford Coppola
+
+Based on The Godfather by Mario Puzo
+Produced by Albert S. Ruddy
+Starring 
+Marlon Brando
+Al Pacino
+James Caan
+Richard Castellano
+Robert Duvall
+Sterling Hayden
+John Marley
+Richard Conte
+Diane Keaton
+
+Cinematography Gordon Willis
+
+Edited by
+William Reynolds
+Peter Zinner
+
+Music by           Nino Rota
+
+Production         Paramount Pictures
+
+companies Alfran Productions
+Distributed by Paramount Pictures
+Release dates
+March 14, 1972 (Loew's State Theatre)
+March 24, 1972 (United States)
+
+Running time 175 minutes[1]
+Country United States
+Language English
+Budget             $6–7 million[N 1]
+Box office         $250–291 million[N 2]
+
 
 The Godfather
 The Godfather is a 1972 American epic gangster
-film[2][3][4] directed by Francis Ford Coppola, who co-                  The Godfather
+film[2][3][4] directed by Francis Ford Coppola, who co-                   
 wrote the screenplay with Mario Puzo based on Puzo's
 best-selling 1969 novel. The film features an ensemble
 cast that includes Marlon Brando, Al Pacino, James
@@ -28,53 +69,53 @@ executives had trouble finding a director; the first few
 candidates turned down the position before Coppola
 signed on to direct the film, but disagreement followed
 over casting several characters, in particular Vito
-(Brando) and Michael (Pacino). Filming took place                     Theatrical release poster
+(Brando) and Michael (Pacino). Filming took place                     
 
-primarily in locations around New York City and            Directed by        Francis Ford Coppola
-Sicily, and it was completed ahead of schedule. The        Screenplay by      Mario Puzo
+primarily in locations around New York City and            
+Sicily, and it was completed ahead of schedule. The        
 score was composed principally by Nino Rota, with
-                                                                              Francis Ford Coppola
+                                                                                
 additional pieces by Carmine Coppola.
-                                                           Based on           The Godfather
-The Godfather premiered at the Loew's State Theatre                           by Mario Puzo
-on March 14, 1972, and was widely released in the          Produced by        Albert S. Ruddy
+                                                                        
+The Godfather premiered at the Loew's State Theatre                         
+on March 14, 1972, and was widely released in the                    
 United States on March 24, 1972. It was the highest-
-                                                           Starring           Marlon Brando
+                                                                      
 grossing film of 1972, and was for a time the highest-
-grossing film ever made, earning between $250 and                             Al Pacino
+grossing film ever made, earning between $250 and                             
 
-$291 million at the box office. The film was acclaimed                        James Caan
-by critics and audiences, who praised its performances                        Richard Castellano
-—particularly those of Brando and Pacino—direction,                           Robert Duvall
+$291 million at the box office. The film was acclaimed                         
+by critics and audiences, who praised its performances                         
+—particularly those of Brando and Pacino—direction,                            
 screenplay, story, cinematography, editing, score, and
-                                                                              Sterling Hayden
+                                                                               
 portrayal of the mafia. The Godfather launched the
-                                                                              John Marley
+                                                                               
 successful careers of Coppola, Pacino, and other
-relative newcomers in the cast and crew. At the 45th                          Richard Conte
-Academy Awards, the film won Best Picture, Best                               Diane Keaton
-Actor (Brando), and Best Adapted Screenplay (for           Cinematography Gordon Willis
-Puzo and Coppola). In addition, the seven other Oscar       Edited by          William Reynolds
-nominations included Pacino, Caan, and Duvall, all for                         Peter Zinner
+relative newcomers in the cast and crew. At the 45th                           
+Academy Awards, the film won Best Picture, Best                                
+Actor (Brando), and Best Adapted Screenplay (for             
+Puzo and Coppola). In addition, the seven other Oscar                   
+nominations included Pacino, Caan, and Duvall, all for                          
 Best Supporting Actor, and Coppola for Best Director.
-                                                            Music by           Nino Rota
-The Godfather is regarded as one of the greatest and        Production         Paramount Pictures
-most influential films ever made, as well as a landmark     companies
-                                                                               Alfran Productions
+                                                                         
+The Godfather is regarded as one of the greatest and                  
+most influential films ever made, as well as a landmark     
+                                                                                
 of the gangster genre.[7] It was selected for
-preservation in the U.S. National Film Registry of the      Distributed by     Paramount Pictures
+preservation in the U.S. National Film Registry of the       
 
-Library of Congress in 1990, being deemed "culturally,      Release dates      March 14, 1972 (Loew's
-historically, or aesthetically significant" and is ranked                      State Theatre)
-the second-greatest film in American cinema (behind                            March 24, 1972 (United
-Citizen Kane) by the American Film Institute. It was                           States)
+Library of Congress in 1990, being deemed "culturally,      
+historically, or aesthetically significant" and is ranked                      
+the second-greatest film in American cinema (behind                            
+Citizen Kane) by the American Film Institute. It was                           
 followed by sequels The Godfather Part II (1974) and
-                                                            Running time       175 minutes[1]
+                                                            
 The Godfather Part III (1990).
-                                                            Country            United States
-                                                            Language           English
-Plot                                                        Budget             $6–7 million[N 1]
-                                                            Box office         $250–291 million[N 2]
+                                                            
+                                                                       
+Plot                                                                     
+                                                                      
 Michael Corleone is a World War II veteran and the
 youngest son of Don Vito Corleone. Vito is head of the
 Corleone mafia family and runs it with his eldest son Santino a.k.a. Sonny and adopted son Tom Hagen, a

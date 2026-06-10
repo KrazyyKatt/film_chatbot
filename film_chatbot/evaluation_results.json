@@ -11,37 +11,37 @@
   {
     "question": "What is the plot of Interstellar?",
     "reference": "Interstellar is a film directed by Christopher Nolan about a group of astronauts who travel through a wormhole near Saturn to find a new home for humanity as Earth becomes uninhabitable.",
-    "prediction": "Based on the context provided, I can tell you that the plot of Interstellar is not explicitly stated in the given text. However, I can make an educated guess based on my general knowledge of the film.\n\nInterstellar is a 2014 science fiction film directed by Christopher Nolan, and it's based on the premise conceived by Lynda Obst and theoretical physicist Kip Thorne. The plot revolves around a team of astronauts who embark on a mission to travel through a wormhole in search of a new habitable planet for humanity.\n\nThe context mentions that the scenario is about \"the most exotic events in the universe suddenly becoming accessible to humans,\" which suggests that the film explores themes of space travel, wormholes, and the possibility of finding a new home for humanity. However, I couldn't find any specific details on the plot or the story within the provided text.\n\nIf you're looking for more information on the plot, I'd be happy to try and help you find it!",
-    "rouge1": 0.2475,
-    "rouge2": 0.16,
-    "rougeL": 0.2277,
-    "bleu": 0.0627
+    "prediction": "Based on the context provided, I can tell you that the plot of Interstellar is not explicitly stated in the given text. However, I can make an educated guess based on my general knowledge of the film.\n\nInterstellar is a 2014 science fiction film directed by Christopher Nolan, and it's based on the premise conceived by Lynda Obst and theoretical physicist Kip Thorne. The plot revolves around a team of astronauts who embark on a mission to travel through a wormhole in search of a new habitable planet for humanity.\n\nThe context mentions that the scenario is about \"the most exotic events in the universe suddenly becoming accessible to humans,\" which suggests that the film explores themes of space travel, wormholes, and the possibility of finding a new home for humanity. However, I couldn't find any specific details on the plot or the story within the provided text.\n\nIf you're looking for more information on the plot, I recommend checking out reviews, summaries, or official sources like IMDB or Wikipedia, which may provide more insight into the film's narrative.",
+    "rouge1": 0.2336,
+    "rouge2": 0.1509,
+    "rougeL": 0.215,
+    "bleu": 0.0581
   },
   {
     "question": "What films did Quentin Tarantino direct?",
     "reference": "Quentin Tarantino directed films such as Pulp Fiction, Reservoir Dogs, Kill Bill, Inglourious Basterds, Django Unchained, The Hateful Eight, and Once Upon a Time in Hollywood.",
-    "prediction": "According to the context provided, Quentin Tarantino directed the following films:\n\n1. Reservoir Dogs (1992)\n2. Pulp Fiction (1994)\n3. From Dusk Till Dawn (1996)\n4. Jackie Brown (1997)\n\nThese are mentioned as his first four films as a director in the given context.",
-    "rouge1": 0.3429,
-    "rouge2": 0.1176,
-    "rougeL": 0.2286,
-    "bleu": 0.0407
+    "prediction": "According to the context provided, we can confirm that Quentin Tarantino directed the following films:\n\n1. Reservoir Dogs (1992)\n2. Pulp Fiction (1994)\n3. From Dusk Till Dawn (1996)\n4. Jackie Brown (1997)\n\nThese are mentioned as his first four films as a director in the context provided.",
+    "rouge1": 0.3243,
+    "rouge2": 0.1111,
+    "rougeL": 0.2162,
+    "bleu": 0.038
   },
   {
     "question": "What is The Godfather about?",
     "reference": "The Godfather is a crime film directed by Francis Ford Coppola about the powerful Corleone mafia family, focusing on patriarch Vito Corleone and his son Michael who takes over the family business.",
-    "prediction": "Based on the context provided, I can infer that The Godfather is a film adaptation of a popular novel, although the specific book title is not mentioned. Roger Ebert's praise for Coppola's casting and visual look suggests that the film is an adaptation of a well-known work.\n\nThe National Film Registry essay by Michael Sragow mentions \"a bestseller\" without specifying the title, but it's likely referring to Mario Puzo's novel of the same name, which was adapted into the film. Al Pacino's article at The Guardian also references his role in the film, suggesting that it is an adaptation of a popular book.\n\nGiven this information, I can conclude that The Godfather is a film about organized crime and possibly family dynamics, as hinted at by Roger Ebert's mention of \"popular melodrama\" and Al Pacino's article discussing his character, Sonny Boy. However, without more specific information, it's difficult to provide a detailed summary of the plot.\n\nIf you'd like, I can try to find more general information about The Godfather or its novel adaptation to help answer your question further!",
-    "rouge1": 0.1441,
-    "rouge2": 0.0364,
-    "rougeL": 0.0991,
-    "bleu": 0.0165
+    "prediction": "Based on the context provided, I can infer that The Godfather is a film adaptation of a popular novel, although the specific book title isn't mentioned. Roger Ebert's review praises Coppola's ability to balance \"greased-lightning sensationalism\" from the original material with \"spaciousness and strength,\" suggesting that the film is an adaptation of a bestselling novel.\n\nThe context also mentions Al Pacino's insights into the making of The Godfather, but it doesn't provide specific details about the plot. However, I can tell you that The Godfather is widely regarded as one of the greatest films of all time, and its themes of family, power, loyalty, and tragedy are likely to be central to the story.\n\nIf I had to make an educated guess, I'd say that The Godfather is a crime drama about the rise and fall of a powerful Italian-American Mafia family, possibly exploring themes of family dynamics, power struggles, and the consequences of violence. However, without more specific information, it's difficult to provide a definitive answer.",
+    "rouge1": 0.1538,
+    "rouge2": 0.0583,
+    "rougeL": 0.125,
+    "bleu": 0.0285
   },
   {
     "question": "Tell me about Christopher Nolan as a director.",
     "reference": "Christopher Nolan is a British-American filmmaker known for directing complex, mind-bending films such as Memento, The Dark Knight trilogy, Inception, Interstellar, Dunkirk, Tenet, and Oppenheimer.",
-    "prediction": "Based on the provided context, here's what we can gather about Christopher Nolan as a director:\n\n1. **Significant influence and impact**: Nolan is considered a major figure of 21st-century Hollywood, having established himself as a significant auteur of his generation.\n2. **Intellectual approach to filmmaking**: He is praised for bringing intellectual concepts to the screen in a large-scale scope, making it rare for filmmakers to achieve this.\n3. **Admiration from industry professionals**: A notable film critic expresses admiration for Nolan's work, highlighting his ability to create his own universe and bring complex ideas to life on screen.\n\nUnfortunately, the context doesn't provide extensive information about Nolan's specific directing style, thematic preoccupations, or notable films beyond what's mentioned in the article. However, based on general knowledge, Christopher Nolan is known for:\n\n* Exploring complex themes such as time, memory, and the human condition\n* Employing non-linear storytelling and complex narrative structures\n* Collaborating with talented actors, writers, and cinematographers to create visually stunning and intellectually stimulating films\n\nSome of his notable works include \"Memento,\" \"The Dark Knight\" trilogy, \"Inception,\" \"Interstellar,\" and \"Dunkirk.\"",
-    "rouge1": 0.1972,
-    "rouge2": 0.0948,
-    "rougeL": 0.169,
-    "bleu": 0.0185
+    "prediction": "Based on the provided context, here's what we can gather about Christopher Nolan as a director:\n\n1. **Established auteur**: He is considered a significant figure of his generation in 21st-century Hollywood.\n2. **Commercial success**: His films have earned over $6 billion worldwide, making him a major commercial force in Hollywood.\n3. **Intellectual approach**: Nolan is praised for bringing intellectual concepts to the screen in a large-scale scope, which is rare in filmmaking.\n4. **Admiration from peers**: He has received admiration from other filmmakers, who appreciate his ability to create his own universe and tell great stories.\n\nHowever, the context doesn't provide detailed information about Nolan's specific directing style, thematic preoccupations, or notable films beyond mentioning that he is a major figure in 21st-century Hollywood. If you're looking for more specific insights into his work, I'd be happy to try and help with general knowledge!",
+    "rouge1": 0.1229,
+    "rouge2": 0.0339,
+    "rougeL": 0.0894,
+    "bleu": 0.0095
   }
 ]
