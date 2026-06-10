@@ -21,9 +21,7 @@ def plot_embeddings():
 
     print(f"Visualizing {len(vectors)} chunks...")
 
-    # ── Color by source document ──────────────────────────────
-    # We'll use a simple heuristic: group by chunk index ranges
-    # In practice, label by keyword in text
+    #  Color by source document 
     keywords = {
         "nolan": "#ff6600",
         "tarantino": "#00b4d8",
@@ -61,7 +59,7 @@ def plot_embeddings():
         for spine in ax.spines.values():
             spine.set_edgecolor("#333333")
 
-    # ── PCA ───────────────────────────────────────────────────
+    # PCA 
     pca = PCA(n_components=2)
     pca_result = pca.fit_transform(vectors)
 
@@ -72,7 +70,7 @@ def plot_embeddings():
     axes[0].set_xlabel(f"PC1 ({pca.explained_variance_ratio_[0]*100:.1f}%)", color="#888")
     axes[0].set_ylabel(f"PC2 ({pca.explained_variance_ratio_[1]*100:.1f}%)", color="#888")
 
-    # ── t-SNE ─────────────────────────────────────────────────
+    #  t-SNE 
     perplexity = min(30, len(vectors) - 1)
     tsne = TSNE(n_components=2, perplexity=perplexity, random_state=42, max_iter=1000)
     tsne_result = tsne.fit_transform(vectors)
@@ -84,7 +82,7 @@ def plot_embeddings():
     axes[1].set_xlabel("Dim 1", color="#888")
     axes[1].set_ylabel("Dim 2", color="#888")
 
-    # ── Legend ────────────────────────────────────────────────
+    # Legend
     unique_labels = list(dict.fromkeys(labels))
     color_map = {}
     for text, color, label in zip(texts, colors, labels):

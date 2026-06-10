@@ -1,0 +1,155 @@
+[
+  {
+    "timestamp": "2026-06-10 21:38:39",
+    "language": "🇬🇧 English",
+    "question": "Who directed Inception and what year was it released?",
+    "answer": "Based on the provided context, I can confidently answer that:\n\nThe director of Inception is Christopher Nolan.\n\nAs for the release year, according to the context, Inception was released in 2010. Specifically, its premiere was held in London on July 8, 2010, and it was released in conventional and IMAX theaters starting from July 16, 2010.",
+    "sources": [
+      "04_inception.txt"
+    ],
+    "response_time_s": 3.9
+  },
+  {
+    "timestamp": "2026-06-10 21:38:47",
+    "language": "🇬🇧 English",
+    "question": "What is the main concept behind the dream levels in Inception?",
+    "answer": "The main concept behind the dream levels in Inception is the idea of layering or recursion, where multiple dreams are nested within each other. This allows for a \"dream within a dream\" structure, creating a complex and interconnected framework where actions in one dream world can have ripple effects on others.\n\nAccording to Christopher Nolan, the film's script explores the concept of manipulating and managing a conscious dream as a skill that certain people possess. The idea is that these individuals can enter and share the same dream as someone else, blurring the lines between reality and fantasy.\n\nThis concept is based on common experiences and concepts, but takes it to an outlandish level with the introduction of technology that allows for shared dreaming.",
+    "sources": [
+      "04_inception.txt"
+    ],
+    "response_time_s": 2.7
+  },
+  {
+    "timestamp": "2026-06-10 21:38:55",
+    "language": "🇬🇧 English",
+    "question": "Who plays the lead role in Interstellar and what is his mission?",
+    "answer": "According to the context provided, Matthew McConaughey plays the lead role in Interstellar. However, I couldn't find any specific information about his mission in the context. The context only mentions that he is part of an ensemble cast and that the film follows a group of astronauts who travel through space, but it doesn't specify which character or mission he is playing.\n\nIf you're looking for more information on Matthew McConaughey's role in Interstellar, I can try to provide some general knowledge. In the film, McConaughey plays the role of Cooper, a former NASA pilot who leads a mission to travel through a wormhole in search of a new habitable planet for humanity.",
+    "sources": [
+      "05_interstellar.txt"
+    ],
+    "response_time_s": 2.5
+  },
+  {
+    "timestamp": "2026-06-10 21:39:02",
+    "language": "🇬🇧 English",
+    "question": "What films did Quentin Tarantino direct?",
+    "answer": "Based on the provided context, I can tell you that Quentin Tarantino is a renowned film director, and unfortunately, the context does not specifically mention all of his directed films.\n\nHowever, I can provide some general information about his notable works. According to my general knowledge, Quentin Tarantino has directed many iconic films, including:\n\n1. Reservoir Dogs (1992)\n2. Pulp Fiction (1994)\n3. Jackie Brown (1997)\n4. Kill Bill: Vol. 1 (2003) and Kill Bill: Vol. 2 (2004)\n5. Death Proof (2007)\n6. Inglourious Basterds (2009)\n7. Django Unchained (2012)\n8. The Hateful Eight (2015)\n\nPlease note that this is not an exhaustive list, as Tarantino has directed many other films and short films throughout his career.\n\nIf you're looking for a more comprehensive list of his works, I recommend checking out reputable sources such as IMDb or Tarantino's official website.",
+    "sources": [
+      "02_quentin_tarantino.txt",
+      "01_christopher_nolan.txt"
+    ],
+    "response_time_s": 3.7
+  },
+  {
+    "timestamp": "2026-06-10 21:39:21",
+    "language": "🇬🇧 English",
+    "question": "What are the two main plot lines in Inglourious Basterds?",
+    "answer": "According to the context provided, there is only one main plot line mentioned for Inglourious Basterds, which involves two separate plots that converge at a Paris cinema.\n\nHowever, it does mention that these two plots are driven by:\n\n1. A team of Jewish-American soldiers known as \"the Basterds,\" led by Lt. Aldo Raine.\n2. Shosanna Dreyfus, a young French woman who seeks revenge against the Nazis for the murder of her family.\n\nIt doesn't explicitly state that these two plots are separate main plot lines, but rather that they converge at a Paris cinema.",
+    "sources": [
+      "inglourious_basterds_en.txt"
+    ],
+    "response_time_s": 2.2
+  },
+  {
+    "timestamp": "2026-06-10 21:39:25",
+    "language": "🇬🇧 English",
+    "question": "Who plays Hans Landa in Inglourious Basterds?",
+    "answer": "Christoph Waltz plays Hans Landa in Inglourious Basterds.",
+    "sources": [
+      "inglourious_basterds_en.txt",
+      "02_quentin_tarantino.txt"
+    ],
+    "response_time_s": 0.7
+  },
+  {
+    "timestamp": "2026-06-10 21:39:29",
+    "language": "🇬🇧 English",
+    "question": "Who is the main character in The Godfather?",
+    "answer": "The main character in The Godfather is Michael Corleone.",
+    "sources": [
+      "03_the_godfather.txt"
+    ],
+    "response_time_s": 0.7
+  },
+  {
+    "timestamp": "2026-06-10 21:39:35",
+    "language": "🇬🇧 English",
+    "question": "What films did Martin Scorsese direct?",
+    "answer": "Unfortunately, the provided context does not explicitly mention the specific films directed by Martin Scorsese. However, I can suggest some of his most notable works that are widely recognized:\n\n1. Mean Streets (1973)\n2. Taxi Driver (1976)\n3. Raging Bull (1980)\n4. Goodfellas (1990)\n5. Casino (1995)\n6. Gangs of New York (2002)\n7. The Departed (2006)\n8. Shutter Island (2010)\n\nThese films are often cited as some of Scorsese's most iconic and influential works, but it's worth noting that the context only provides a general overview of his style and themes, rather than an exhaustive list of his filmography.\n\nIf you're looking for more information on Scorsese's specific filmography, I'd be happy to help with that as well!",
+    "sources": [
+      "martin_scorsese.txt"
+    ],
+    "response_time_s": 3.1
+  },
+  {
+    "timestamp": "2026-06-10 21:39:40",
+    "language": "🇬🇧 English",
+    "question": "What is Martin Scorsese known for as a director?",
+    "answer": "Based on the context provided, Martin Scorsese is widely regarded as one of the greatest and most influential film directors in history. He is known for several recurring stylistic traits in his films, including:\n\n1. Extensive use of slow motion and freeze frames\n2. Voice-over narration\n3. Graphic depictions of violence\n4. Liberal use of profanity\n5. Morally complex characters caught between sin and redemption\n\nThese stylistic elements are characteristic of Scorsese's filmmaking style and have become synonymous with his work.",
+    "sources": [
+      "martin_scorsese.txt"
+    ],
+    "response_time_s": 2.0
+  },
+  {
+    "timestamp": "2026-06-10 21:39:48",
+    "language": "🇬🇧 English",
+    "question": "Who invented the time machine in Back to the Future?",
+    "answer": "Unfortunately, the provided context does not mention who specifically invented the time machine in Back to the Future. It mentions that Lawrence Paull designed the DeLorean time machine under supervision, and it was originally conceived as a stationary device, but it doesn't provide information on who came up with the concept of the time machine itself.\n\nHowever, I can tell you that the DeLorean time machine is a fictional device created for the Back to the Future trilogy. The context does mention that Doc Brown (played by Christopher Lloyd) is often compared to King Arthur, and Marty McFly (played by Michael J. Fox) serves as his knight, but it doesn't provide information on who specifically invented the time machine.\n\nIf you're looking for more information on the creation of the DeLorean time machine or its concept, I'd be happy to try and help you find more resources or answer any additional questions!",
+    "sources": [
+      "Back_to_the_Future.pdf",
+      "Ready_Player_One_(film).pdf"
+    ],
+    "response_time_s": 3.3
+  },
+  {
+    "timestamp": "2026-06-10 21:39:50",
+    "language": "🇬🇧 English",
+    "question": "What is the plot of Star Wars Episode I: The Phantom Menace?",
+    "answer": "The plot of Star Wars Episode I: The Phantom Menace revolves around Jedi Master Qui-Gon Jinn and his apprentice Obi-Wan Kenobi as they attempt to protect Queen Padmé Amidala of Naboo during a political and military crisis. Along the way, they discover a young boy named Anakin Skywalker, who is strong with the Force, setting the stage for his eventual transformation into Darth Vader.",
+    "sources": [
+      "star_wars_episode_I_phantom_menace.txt"
+    ],
+    "response_time_s": 1.6
+  },
+  {
+    "timestamp": "2026-06-10 21:39:58",
+    "language": "🇬🇧 English",
+    "question": "Who is Anakin Skywalker in The Phantom Menace?",
+    "answer": "According to the context provided, Anakin Skywalker is a nine-year-old slave boy from Tatooine who possesses extraordinary Force abilities. He is also known as \"Joyful and gifted\" and has no idea of the dark destiny that awaits him.",
+    "sources": [
+      "star_wars_episode_I_phantom_menace.txt"
+    ],
+    "response_time_s": 1.1
+  },
+  {
+    "timestamp": "2026-06-10 21:40:02",
+    "language": "🇬🇧 English",
+    "question": "What is the plot of Forrest Gump?",
+    "answer": "The plot of Forrest Gump revolves around the life story of Forrest Gump, which he shares with strangers seated beside him at a bus stop in Savannah, Georgia, in 1981. The narrative is framed as Forrest recounting his life experiences, which serve as a passive witness and accidental participant in major historical events in America from the 1950s to the 1980s.",
+    "sources": [
+      "forrest_gump_en.txt"
+    ],
+    "response_time_s": 1.6
+  },
+  {
+    "timestamp": "2026-06-10 21:40:07",
+    "language": "🇬🇧 English",
+    "question": "What is Hot Fuzz about?",
+    "answer": "Based on the context provided, Hot Fuzz is a British action comedy film that follows Nicholas Angel, an exceptionally skilled London police officer who is transferred to the quiet rural village of Sandford in Gloucestershire. Initially, the reassignment seems dull, but it soon turns into a string of mysterious deaths and shocking secrets hidden behind the idyllic village life.\n\nWhile the context doesn't provide a detailed plot summary, it gives an idea of the film's genre (action comedy) and its tone (parodying action movie clichés with warmth and sincerity).",
+    "sources": [
+      "hot_fuzz_en.txt"
+    ],
+    "response_time_s": 2.1
+  },
+  {
+    "timestamp": "2026-06-10 21:40:14",
+    "language": "🇬🇧 English",
+    "question": "What happened to the Corleone family in The Godfather?",
+    "answer": "Based on the context provided, it appears that the Corleone family's storyline is not fully explored in the given documents. However, I can provide some general information about the Corleone family from The Godfather.\n\nThe Corleone family, led by Don Vito Corleone (the Patriarch), is a powerful mafia organization. In the film, we see the family's dynamics and struggles, particularly with Michael Corleone, who becomes increasingly involved in the family business.\n\nUnfortunately, without more specific information from The Godfather Part III or other sources, I couldn't determine what happened to the Corleone family specifically. If you're looking for a detailed account of their storyline, I recommend consulting additional resources or watching the film itself.\n\nHowever, it's worth noting that The Godfather Part III (1990) does conclude the story of Michael Corleone and the Corleone family, but without access to the specific context provided, I couldn't provide more information on this aspect.",
+    "sources": [
+      "03_the_godfather.txt"
+    ],
+    "response_time_s": 3.5
+  }
+]

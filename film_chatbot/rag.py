@@ -104,7 +104,6 @@ Answer based on the context provided. If the context doesn't contain enough info
     def format_docs(docs):
         return "\n\n".join(doc.page_content for doc in docs)
 
-    # Store last retrieved docs for source display
     class RAGChain:
         def __init__(self):
             self.last_source_documents = []

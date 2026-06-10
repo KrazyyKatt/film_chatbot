@@ -12,7 +12,7 @@ nltk.download('punkt_tab', quiet=True)
 
 from rag import initialize_rag
 
-# ── Test questions with reference answers ─────────────────────
+# test questions with reference answers 
 TEST_CASES = [
     {
         "question": "Who directed Inception and what is it about?",
@@ -86,7 +86,7 @@ def run_evaluation():
             "bleu": bleu,
         })
 
-    # ── Summary ───────────────────────────────────────────────
+    # summary
     print("\n" + "=" * 60)
     print("SUMMARY")
     print("=" * 60)
@@ -99,7 +99,7 @@ def run_evaluation():
     print(f"Avg ROUGE-L : {avg_rl:.4f}")
     print(f"Avg BLEU    : {avg_bl:.4f}")
 
-    # Save to JSON
+    # save to JSON
     with open("evaluation_results.json", "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
     print("\nResults saved to evaluation_results.json")

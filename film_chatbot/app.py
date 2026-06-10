@@ -1,6 +1,8 @@
 import streamlit as st
 import os
 import time
+import json
+from datetime import datetime
 from rag import initialize_rag, build_vectorstore, load_documents, VECTORSTORE_PATH
 
 st.set_page_config(
@@ -96,7 +98,22 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ── Language config ───────────────────────────────────────────
+# Logging 
+LOG_FILE = "session_logs.json"
+
+def load_logs():
+    if os.path.exists(LOG_FILE):
+        with open(LOG_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return []
+
+def save_log(entry):
+    logs = load_logs()
+    logs.append(entry)
+    with open(LOG_FILE, "w", encoding="utf-8") as f:
+        json.dump(logs, f, indent=2, ensure_ascii=False)
+
+# Language config
 LANGUAGES = {
     "🇬🇧 English": {
         "code": "en",
@@ -163,7 +180,7 @@ LANGUAGES = {
     },
 }
 
-# ── Sidebar ───────────────────────────────────────────────────
+# Sidebar 
 with st.sidebar:
     st.markdown("### 🌍 Language / Jezik / Sprache")
     selected_lang = st.selectbox(
@@ -182,7 +199,7 @@ with st.sidebar:
         st.rerun()
 
     st.markdown("---")
-    st.markdown(f"### ⚙️ Controls")
+    st.markdown("### ⚙️ Controls")
     if st.button(lang["rebuild"], use_container_width=True):
         if os.path.exists(VECTORSTORE_PATH):
             import shutil
@@ -209,7 +226,17 @@ with st.sidebar:
         if st.button(q, use_container_width=True, key=q):
             st.session_state.prefill = q
 
-# ── Init RAG ─────────────────────────────────────────────────
+    st.markdown("---")
+    st.markdown("### 📋 Session Logs")
+    logs = load_logs()
+    st.markdown(f"Total logged: **{len(logs)}** interactions")
+    if logs and st.button("🗂️ Show last 3 logs", use_container_width=True):
+        for entry in logs[-3:]:
+            st.markdown(f"**Q:** {entry['question'][:60]}...")
+            st.markdown(f"**Time:** {entry['response_time_s']}s | **Lang:** {entry['language']}")
+            st.markdown("---")
+
+# Init RAG
 if "rag_chain" not in st.session_state or st.session_state.rag_chain is None:
     with st.spinner(lang["loading"]):
         st.session_state.rag_chain = initialize_rag()
@@ -217,7 +244,7 @@ if "rag_chain" not in st.session_state or st.session_state.rag_chain is None:
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# ── Hero ─────────────────────────────────────────────────────
+# Hero
 st.markdown(f"""
 <div class="hero">
     <h1>🎬 FILM EXPERT</h1>
@@ -225,20 +252,24 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-# ── Stats ─────────────────────────────────────────────────────
-col1, col2, col3 = st.columns(3)
+# Stats
+col1, col2, col3, col4 = st.columns(4)
 doc_count = len(os.listdir("documents")) if os.path.exists("documents") else 0
 msg_count = len(st.session_state.messages)
+logs = load_logs()
 with col1:
     st.markdown(f'<div class="stat-box"><div class="stat-num">{doc_count}</div><div class="stat-label">{lang["docs_label"]}</div></div>', unsafe_allow_html=True)
 with col2:
     st.markdown(f'<div class="stat-box"><div class="stat-num">{msg_count // 2}</div><div class="stat-label">{lang["questions_label"]}</div></div>', unsafe_allow_html=True)
 with col3:
     st.markdown(f'<div class="stat-box"><div class="stat-num">RAG</div><div class="stat-label">Architecture</div></div>', unsafe_allow_html=True)
+with col4:
+    avg_time = round(sum(l["response_time_s"] for l in logs) / len(logs), 1) if logs else 0
+    st.markdown(f'<div class="stat-box"><div class="stat-num">{avg_time}s</div><div class="stat-label">Avg Response Time</div></div>', unsafe_allow_html=True)
 
 st.markdown(f'<div class="lang-badge">🌍 {selected_lang}</div>', unsafe_allow_html=True)
 
-# ── Chat history ──────────────────────────────────────────────
+# Chat history
 for msg in st.session_state.messages:
     if msg["role"] == "user":
         st.markdown(f'<div class="chat-user">🧑 <strong>{lang["you"]}:</strong> {msg["content"]}</div>', unsafe_allow_html=True)
@@ -247,8 +278,10 @@ for msg in st.session_state.messages:
         if "sources" in msg and msg["sources"]:
             src_html = "".join([f'<span class="source-tag">📄 {s}</span>' for s in msg["sources"]])
             st.markdown(f"<div style='margin-top:4px'>{src_html}</div>", unsafe_allow_html=True)
+        if "time" in msg:
+            st.markdown(f'<div style="font-size:0.75rem;color:#555;margin-top:4px">⏱ {msg["time"]}s</div>', unsafe_allow_html=True)
 
-# ── Input ─────────────────────────────────────────────────────
+# Input
 prefill = st.session_state.pop("prefill", "")
 user_input = st.chat_input(lang["chat_placeholder"])
 
@@ -260,10 +293,9 @@ if user_input:
 
     with st.spinner(lang["thinking"]):
         start = time.time()
-        # Inject language instruction into query
         query_with_lang = f"{lang['prompt_instruction']}\n\nQuestion: {user_input}"
         result = st.session_state.rag_chain.invoke({"query": query_with_lang})
-        elapsed = time.time() - start
+        elapsed = round(time.time() - start, 1)
 
     answer = result["result"]
     sources = []
@@ -278,11 +310,22 @@ if user_input:
         "role": "assistant",
         "content": answer,
         "sources": sources,
-        "time": round(elapsed, 1)
+        "time": elapsed
     })
+
+    # Save log entry
+    save_log({
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "language": selected_lang,
+        "question": user_input,
+        "answer": answer,
+        "sources": sources,
+        "response_time_s": elapsed
+    })
+
     st.rerun()
 
-# ── Clear ─────────────────────────────────────────────────────
+# Clear
 if st.session_state.messages:
     if st.button(lang["clear"]):
         st.session_state.messages = []
