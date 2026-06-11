@@ -151,5 +151,106 @@
       "03_the_godfather.txt"
     ],
     "response_time_s": 3.5
+  },
+  {
+    "timestamp": "2026-06-11 10:39:10",
+    "language": "🇬🇧 English",
+    "question": "Who directed Inception?",
+    "answer": "According to the context provided, Christopher Nolan directed the 2010 science fiction action film \"Inception\".",
+    "sources": [
+      "04_inception.txt"
+    ],
+    "response_time_s": 7.4
+  },
+  {
+    "timestamp": "2026-06-11 10:39:19",
+    "language": "🇬🇧 English",
+    "question": "What is the plot of Interstellar?",
+    "answer": "Based on the provided context, I can give you a brief overview of the plot of Interstellar.\n\nUnfortunately, the context doesn't provide a detailed summary of the plot, but it does mention that the film is about \"the most exotic events in the universe suddenly becoming accessible to humans\". It also mentions that the story was conceived by Lynda Obst and theoretical physicist Kip Thorne, who collaborated on the film Contact (1997).\n\nHowever, I can tell you that Interstellar is a science fiction film directed by Christopher Nolan, which explores themes of space travel, wormholes, and the search for a new habitable planet for humanity. The plot follows a team of astronauts as they embark on a mission to explore the galaxy in search of a new home for humanity due to Earth's impending environmental disaster.\n\nIf you're looking for more information on the plot, I recommend checking out reviews or summaries from reputable sources, such as IMDb or Wikipedia, which may provide a more detailed and accurate account of the film's storyline.",
+    "sources": [
+      "05_interstellar.txt"
+    ],
+    "response_time_s": 4.0
+  },
+  {
+    "timestamp": "2026-06-11 10:39:37",
+    "language": "🇬🇧 English",
+    "question": "Tell me about The Godfather",
+    "answer": "The Godfather is a classic American crime drama film directed by Francis Ford Coppola, released in 1972. The film is an adaptation of Mario Puzo's 1969 novel of the same name.\n\nThe movie tells the story of the Corleone family, an Italian-American Mafia family, and their rise to power in New York City. The story follows Don Vito Corleone (played by Marlon Brando), the patriarch of the family, as he navigates the world of organized crime and deals with threats from rival families and law enforcement.\n\nThe film features a talented ensemble cast, including Al Pacino as Michael Corleone, Robert Duvall as Tom Hagen, and James Caan as Santino \"Sonny\" Corleone. The movie's success can be attributed to its gripping storyline, memorable characters, and Coppola's direction, which brought a sense of realism and authenticity to the film.\n\nThe Godfather is widely regarded as one of the greatest films of all time, and its influence on popular culture is still felt today. It has been named the greatest film by various organizations, including the American Film Institute and IMDb.\n\nInterestingly, the film's impact extends beyond the world of cinema. As mentioned in the context, The Godfather has been credited with influencing the way mafia members speak and behave, with some even adopting the mannerisms and speech patterns of Don Vito Corleone. Additionally, the film's portrayal of the Mafia lifestyle has been studied by scholars and law enforcement agencies to better understand the inner workings of organized crime.\n\nOverall, The Godfather is a masterpiece of filmmaking that continues to captivate audiences with its timeless story, memorable characters, and Coppola's masterful direction.",
+    "sources": [
+      "03_the_godfather.txt"
+    ],
+    "response_time_s": 5.4
+  },
+  {
+    "timestamp": "2026-06-11 10:40:12",
+    "language": "🇬🇧 English",
+    "question": "Who directed Inception?",
+    "answer": "According to the context provided, Christopher Nolan directed the 2010 science fiction action film \"Inception\".",
+    "sources": [
+      "04_inception.txt"
+    ],
+    "response_time_s": 1.1
+  },
+  {
+    "timestamp": "2026-06-11 10:40:16",
+    "language": "🇬🇧 English",
+    "question": "What is the plot of Interstellar?",
+    "answer": "Based on the context provided, I can tell you that the plot of Interstellar is not explicitly stated in the given documents. However, it can be inferred that the film explores \"the most exotic events in the universe suddenly becoming accessible to humans\" as conceived by theoretical physicist Kip Thorne and producer Lynda Obst.\n\nThe context mentions that the film's premise was inspired by Thorne's work, but it doesn't provide a detailed summary of the plot. It does mention that the story is set against the backdrop of powerful themes, visual spectacle, and potentially \"exotic events\" in space.\n\nIf you're looking for more information on the plot, I can suggest checking out other sources or reviews from critics like Scott Foundas, Claudia Puig, and David Stratton, who have provided their insights into the film's narrative.",
+    "sources": [
+      "05_interstellar.txt"
+    ],
+    "response_time_s": 3.0
+  },
+  {
+    "timestamp": "2026-06-11 10:45:01",
+    "language": "🇬🇧 English",
+    "question": "Who directed Inception and what is it about?",
+    "answer": "According to the context provided, Christopher Nolan directed the 2010 science fiction action film \"Inception\". The film is about a professional thief who steals information by infiltrating the subconscious of his targets. He is offered a chance to have his criminal history erased as payment for implanting another person's idea into a target's subconscious.\n\nUnfortunately, the context doesn't provide more detailed information about the plot or specific aspects of the story, but it gives us a general understanding of what the film is about and who directed it.",
+    "sources": [
+      "04_inception.txt"
+    ],
+    "response_time_s": 2.3
+  },
+  {
+    "timestamp": "2026-06-11 10:45:26",
+    "language": "🇬🇧 English",
+    "question": "What films did Quentin Tarantino direct?",
+    "answer": "Based on the provided context, I can tell you that Quentin Tarantino is a renowned film director, and unfortunately, the context does not specifically mention his directed films. However, I can provide some general information about his notable works.\n\nQuentin Tarantino is known for directing several critically acclaimed films, including:\n\n1. Pulp Fiction (1994)\n2. Reservoir Dogs (1992)\n3. Jackie Brown (1997)\n4. Kill Bill: Vol. 1 (2003) and Kill Bill: Vol. 2 (2004)\n5. Death Proof (2007)\n6. Inglourious Basterds (2009)\n7. Django Unchained (2012)\n8. The Hateful Eight (2015)\n\nThese films are often cited as some of his best works, and he has received numerous awards and accolades for his direction.\n\nIf you're looking for a more comprehensive list of Tarantino's directed films, I recommend checking out reputable sources such as IMDb or Wikipedia, which provide detailed information on his filmography.",
+    "sources": [
+      "02_quentin_tarantino.txt",
+      "01_christopher_nolan.txt"
+    ],
+    "response_time_s": 3.7
+  },
+  {
+    "timestamp": "2026-06-11 10:45:42",
+    "language": "🇬🇧 English",
+    "question": "What is the plot of Interstellar?",
+    "answer": "Based on the provided context, I can provide some information about the plot of Interstellar. However, please note that the context does not explicitly state the plot of the film.\n\nFrom what is mentioned in the context, it appears that the film Interstellar was conceived by Lynda Obst and theoretical physicist Kip Thorne, who drew inspiration from Thorne's work on \"the most exotic events in the universe suddenly becoming accessible to humans\". The context also mentions that the film explores themes of powerful ideas and concepts.\n\nUnfortunately, without more specific information or a detailed summary of the film, I couldn't provide a more concrete answer about the plot. However, I can suggest that Interstellar is likely to be a science fiction film that delves into complex scientific concepts and explores the possibilities of human space travel and exploration.\n\nIf you're looking for a more accurate summary of the plot, I recommend checking out reviews or summaries from reputable sources, such as IMDB, Rotten Tomatoes, or official websites.",
+    "sources": [
+      "05_interstellar.txt"
+    ],
+    "response_time_s": 3.3
+  },
+  {
+    "timestamp": "2026-06-11 12:29:26",
+    "language": "🇬🇧 English",
+    "question": "Who directed Inception?",
+    "answer": "According to the context provided, Christopher Nolan directed the 2010 science fiction action film \"Inception\".",
+    "sources": [
+      "04_inception.txt"
+    ],
+    "response_time_s": 6.6
+  },
+  {
+    "timestamp": "2026-06-11 12:29:45",
+    "language": "🇬🇧 English",
+    "question": "What is the plot of Interstellar?",
+    "answer": "Based on the context provided, I can tell you that the plot of Interstellar is not explicitly stated in the given documents. However, it can be inferred that the film explores \"the most exotic events in the universe suddenly becoming accessible to humans\" as conceived by Lynda Obst and theoretical physicist Kip Thorne.\n\nThe context suggests that the story revolves around a scenario where humans are able to travel through a wormhole in search of a new habitable planet for humanity, as Earth faces an impending environmental disaster. The film is directed by Christopher Nolan, known for his visually stunning and conceptually ambitious films.\n\nUnfortunately, without more specific information, I couldn't provide a detailed summary of the plot. If you're looking for a more accurate description, I recommend checking out reviews or summaries from reputable sources that have covered the film in greater detail.",
+    "sources": [
+      "05_interstellar.txt"
+    ],
+    "response_time_s": 2.9
   }
 ]
